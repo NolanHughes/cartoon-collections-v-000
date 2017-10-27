@@ -10,7 +10,9 @@ def summon_captain_planet(fruit)
 end
 
 def long_planeteer_calls(array)
-  array.any?
+  array.any? do |i|
+    i.length > 4
+  end
 
   array.find do |i|
     if i.length > 4
