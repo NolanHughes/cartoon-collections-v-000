@@ -13,7 +13,7 @@ def long_planeteer_calls(array)
   array.any? do |i|
     i.length > 4
   end
-  # 
+  #
   # array.find do |i|
   #   if i.length > 4
   #     true
@@ -21,7 +21,7 @@ def long_planeteer_calls(array)
   #     false
   #   end
   # end
-  # 
+  #
   # if array.length > 4
   #   true
   # else
