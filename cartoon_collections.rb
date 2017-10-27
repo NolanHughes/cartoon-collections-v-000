@@ -6,9 +6,8 @@ end
 
 
 def summon_captain_planet(fruit)
-  fruit.map do |names|
-    names.capitalize + "!"
-  end
+  fruit.map  {|names| names.capitalize + "!"}
+
 end
 
 def long_planeteer_calls(array)
